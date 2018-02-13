@@ -10,9 +10,9 @@ int main()
     cout << "ingrese otro numero:" << endl;
     cin >> numero2;
     if(numero1>numero2){
-        cout << numero1 << numero2;
-    }else{
         cout << numero2 << numero1;
+    }else{
+        cout << numero1 << numero2;
     }
 
     return 0;
